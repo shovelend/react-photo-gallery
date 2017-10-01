@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import logo from 'images/logo.svg';
 import './App.css';
+import Signature from 'components/Signature';
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
             life is sometimes hard to believe. That one person could invent so
             much innocent mischief in one life is surely an inspiration!
           </p>
-          <blockquote>Ralph Leighton</blockquote>
+          <Signature author="Ralph Leighton" />
 
           <h2>Introduction</h2>
           <p>
@@ -61,7 +62,12 @@ class App extends Component {
             fortunate who caught that infection. Now here is your opportunity to
             be exposed to the joy of life in the style of Feynman.
           </p>
-          <blockquote>Albert R. Hibbs, Senior Member of the Technical Staff, Jet Propulsion Laboratory, California Institute of Technology</blockquote>
+          <Signature
+            author="Albert R. Hibbs"
+            role="Senior Member of the Technical Staff"
+            division="Jet Propulsion Laboratory"
+            company="California Institute of Technology"
+          />
 
           <h2>Vitals</h2>
           <p>
@@ -91,7 +97,7 @@ class App extends Component {
             I am now married to Gweneth, who is English, and we have two
             children, Carl and Michelle.
           </p>
-          <blockquote>R. P. F.</blockquote>
+          <Signature author="R. P. F." />
         </article>
       </div>
     );
