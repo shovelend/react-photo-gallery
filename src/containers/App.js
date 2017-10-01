@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import logo from 'images/logo.svg';
 import './App.css';
+import Image from 'components/Image';
 import Signature from 'components/Signature';
 
 class App extends Component {
@@ -24,6 +25,11 @@ class App extends Component {
             much innocent mischief in one life is surely an inspiration!
           </p>
           <Signature author="Ralph Leighton" />
+
+          <Image
+            src="https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?dpr=1&auto=compress,format"
+            caption="The night was dark and full of terrors"
+          />
 
           <h2>Introduction</h2>
           <p>
@@ -67,6 +73,11 @@ class App extends Component {
             role="Senior Member of the Technical Staff"
             division="Jet Propulsion Laboratory"
             company="California Institute of Technology"
+          />
+
+          <Image
+            src="https://images.unsplash.com/photo-1488388373205-a134c1cc7e4e?dpr=1&auto=compress,format"
+            caption="The journey is worth the search"
           />
 
           <h2>Vitals</h2>

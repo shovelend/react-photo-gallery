@@ -1,0 +1,14 @@
+.Figure {
+  background-color: #111;
+  color: #ececec;
+  margin: unset;
+}
+
+.Image {
+  width: 100%;
+}
+
+.Caption {
+  padding: 16px;
+  font-size: initial;
+}
