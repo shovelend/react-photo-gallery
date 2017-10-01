@@ -2,7 +2,11 @@
 
 The first challenge of the [Findmypast](http://tech.findmypast.com/) front-end guild.
 
-### Functional requirements
+## Getting Started
+
+Run the sample app with `npm start` or `yarn start`
+
+## Requirements
 
 - Main photo display area
   - Each photo should have a caption associated with it and displayed somewhere
@@ -12,5 +16,3 @@ The first challenge of the [Findmypast](http://tech.findmypast.com/) front-end g
 - Show all the images in the gallery as a list of thumbnails
   - When clicking a thumbnail, the main image will change to that selected image
   - Highlight the thumbnail selected
-
-If you’re looking for photos to use: http://lorempixel.com/ - you can customise the sizes.
