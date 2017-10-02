@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Image.css';
 
@@ -11,3 +12,9 @@ export default function Image({ src, alt, caption }) {
     </figure>
   );
 }
+
+Image.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+  caption: PropTypes.string,
+};
